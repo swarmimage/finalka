@@ -1,0 +1,146 @@
+.preview{
+    background-color: rgb(179, 0, 255);
+  
+}
+
+.preview__wrapper{
+    padding: 50px 0;
+    display: flex;
+    gap: 272px;
+    justify-content: center;
+}
+
+.preview__right{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.preview__title{
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.preview__image{
+    width: 10%;
+}
+
+
+
+.preview__text{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+.preview__buttons-right{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.down__img{
+    width:100%;
+}
+
+
+.preview__buttons-left{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.preview__buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    
+}
+
+.preview__button {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #dd00ff;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.preview__buttons a{
+    background-color: #dd00ff;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+    
+
+
+.slider{
+    background-color: #ff00dd;
+}
+
+.preview__reklama-img{
+    width: 117%;
+}
+
+.preview__reklama-img2{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .preview__wrapper {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .preview__right,
+    .preview__reklama {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .preview__right {
+      gap: 20px;
+    }
+  
+    .preview__title {
+      font-size: 24px;
+    }
+  
+    .preview__image {
+        width: 4%;
+    }
+  
+    .preview__buttons{
+        width: 50%;
+    }
+
+    .preview__reklama-img{
+        width: 50%;
+    }
+    
+    .preview__reklama-img2{
+        width: 50%;
+    }
+    
+    .down__img{
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+
+    .preview__button{
+        padding: 10px 10px;
+        font-size: 11px;
+    }
+  }
+  
+  

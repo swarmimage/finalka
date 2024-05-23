@@ -1,0 +1,79 @@
+.header{
+    box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    background-color: #FFFFFF;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 29px 0px;
+}
+
+.header__left{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.header__left-links{
+    display: flex;  
+    gap: 20px;
+}
+
+.header__links-text{
+    font-weight: bold;
+}
+
+.header__logo{
+    width: 10%;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #F6F8F9;
+    padding: 16px 10px;
+    border-radius: 5px;
+}
+
+.header_right1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header__basket-icon{
+    padding: 1px 5px;
+    background-color: #ff7300;
+    font-weight: bold;
+    color: #F6F8F9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+   .header__wrapper{
+    width: 100%;
+   }
+
+   .header_right1{
+    align-items: center;
+   }
+
+   .header__links-text{
+    font-size: 15px;
+   }
+
+   .header__basket{
+    width: 20px;
+   }
+
+   .header__basket-text{
+    font-size: 15px;
+   }
+
+
+
+}

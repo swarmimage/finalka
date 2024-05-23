@@ -1,0 +1,21 @@
+.about__title{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 50px 0;
+}
+
+.about__title-text{
+    width: 30%;
+}
+
+.about__text{
+    font-size: 25px;
+    color: rgb(75, 0, 112);
+    padding: 10px 100px 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    .about__text{
+       width: 100%;
+    }
+}

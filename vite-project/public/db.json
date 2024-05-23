@@ -1,0 +1,101 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "https://bogatyr.club/uploads/posts/2023-06/1687479385_bogatyr-club-p-dzhizakskaya-samsa-foni-vkontakte-53.jpg",
+      "title": "Olot самса",
+      "description": "Мясная выпечка с уникальным вкусом",
+      "price": 93200,
+      "button": "Добавить в корзину"
+    },
+    {
+      "id": 2,
+      "image": "https://api.chaihona1.ru/files/entity/menu_items/100000003/125/med_89.jpg",
+      "title": "Плов",
+      "description": "Национальное узбекское блюдо из риса, мяса и моркови",
+      "price": 9230,
+      "button": "Добавить в корзину"
+    },
+    {
+      "id": 3,
+      "image": "https://api.chaihona1.ru/files/entity/menu_items/100000003/118/med_550.jpg",
+      "title": "Суп куриннный",
+      "description": "Традиционное узбекское блюдо из куринного мяса и овощей",
+      "price": 25000,
+      "button": "Добавить в корзину"
+    },
+    {
+      "id": 4,
+      "image": "https://api.chaihona1.ru/files/entity/menu_items/100000003/12600000082/med_47.jpg",
+      "title": "Самса Говядина",
+      "description": "Узбекское пирожное, наполненное мясом и овощами",
+      "price": 9000,
+      "button": "Добавить в корзину"
+    },
+    {
+      "id": 5,
+      "image": "https://api.chaihona1.ru/files/entity/menu_items/100000003/141/med_90.jpg",
+      "title": "Манты",
+      "description": "Паровые карманы из теста, наполненные мясом и луком",
+      "price": 18000,
+      "button": "Добавить в корзину"
+    },
+    {
+      "id": 6,
+      "image": "https://api.chaihona1.ru/files/entity/menu_items/100000003/115/med_53.jpg",
+      "title": "Шурва",
+      "description": "Традиционный узбекский суп из мяса, овощей и специй",
+      "price": 22000,
+      "button": "Добавить в корзину"
+    },
+
+    {
+      "id": 7,
+      "image": "https://api.chaihona1.ru/files/entity/menu_items/100000003/987/med_4648.jpg",
+      "title": "Шашлык",
+      "description": "Популярное узбекское блюдо из маринованного мяса, жаренного на вертеле",
+      "price": 10000,
+      "button": "Добавить в корзину"
+    },
+    {
+      "id": 8,
+      "image": "https://api.chaihona1.ru/files/entity/menu_items/100000003/109/med_48.jpg",
+      "title": "Самса",
+      "description": "Традиционное узбекское пирожное с начинкой из мяса и лука",
+      "price": 7000,
+      "button": "Добавить в корзину"
+    },
+    {
+      "id": 9,
+      "image": "https://api.chaihona1.ru/files/entity/menu_items/100000003/125/med_89.jpg",
+      "title": "Плов Самаркандский",
+      "description": "Национальное узбекское блюдо из риса, мяса, моркови и специй",
+      "price": 30000,
+      "button": "Добавить в корзину"
+    },
+    {
+      "id": 10,
+      "image": "https://api.chaihona1.ru/files/entity/menu_items/100000003/119/med_54.jpg ",
+      "title": "Лагман",
+      "description": "Традиционное узбекское блюдо из мяса, овощей и лапши",
+      "price": 25000,
+      "button": "Добавить в корзину"
+    },
+    {
+      "id": 11,
+      "image": "https://api.chaihona1.ru/files/entity/menu_items/100000003/2763/med_440.jpg",
+      "title": "Манты Баранина",
+      "description": "Узбекские паровые пельмени с мясной начинкой 10 шт.",
+      "price": 18000,
+      "button": "Добавить в корзину"
+    },
+    {
+      "id": 11,
+      "image": "https://api.chaihona1.ru/files/entity/menu_items/100000003/4400000345/med_5290.jpg",
+      "title": "Шаурма",
+      "description": "Вкуснейшее блюдо быстрого приготовления из свежих продуктов",
+      "price": 22000,
+      "button": "Добавить в корзину"
+    }
+  ]
+}

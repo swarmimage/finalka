@@ -1,0 +1,147 @@
+.basketcard {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.basketcard__wrapper {
+  margin-top: 20px;
+  display: flex;
+  width: 90%;
+  width: 1000px;
+  height: 350px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.basketcard__left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.basketcard__img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.basketcard__right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.basketcard__title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.basket__description {
+  font-size: 16px;
+  color: #666;
+}
+
+.basket__price {
+  font-size: 20px;
+  color: rgb(167, 0, 244);
+  margin-top: 10px;
+}
+
+.basket__btn {
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.basket__btn {
+  margin: 0 auto;
+  margin-top: 110px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #a90101;
+  color: #f9f9f9;
+}
+
+.basketcard__empty {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: #0000001a;
+  padding: 200px;
+  font-size: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .basketcard__wrapper {
+    width: 100%;
+    margin: 0 auto;
+    width: 650px;
+    height: 250px;
+  }
+
+
+
+  .basketcard__title {
+    font-size: 20px;
+  }
+
+  .basket__description {
+    font-size: 15px;
+  }
+
+  .basket__price {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .basket__btn {
+    font-size: 12px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+  }
+  
+  .basketcard__right{
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  .basketcard__wrapper {
+    width: 100%;
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+  }
+
+
+  .basketcard__title {
+    font-size: 18px;
+  }
+
+  .basket__description {
+    font-size: 12px;
+  }
+
+  .basket__price {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .basket__btn {
+    font-size: 10px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 8px;
+  }
+  
+  .basketcard__right{
+    width: 50%;
+  }
+
+}

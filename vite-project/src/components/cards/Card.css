@@ -1,0 +1,71 @@
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+.card__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  min-height: 434px;
+  background-color: #ffffff;
+  align-self: flex-start;
+}
+
+
+
+.card__image {
+  width: 100%;
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card__text {
+  font-size: 16px;
+  margin-top: 23px;
+  color: #bebebe;
+  font-weight: bold;
+}
+
+.card__price {
+  font-size: 16px;
+  color: rgb(167, 0, 244);
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.card__basket {
+  padding: 13px 62px;
+  border-radius: 5px;
+  background-color: #F6F8F9;
+  color: #000000;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+  }
+
+  .card__wrapper {
+    width: 110%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .card {
+    grid-template-columns: repeat(2, 0fr);
+  }
+
+
+  
+}
